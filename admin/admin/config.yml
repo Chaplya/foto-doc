@@ -2,9 +2,8 @@ backend:
   name: github
   repo: Chaplya/foto-doc
   branch: main
-  client_id: Ov23liedsfVljW41wLI0
   base_url: https://фото-на-документы-екб.рф
-  auth_endpoint: /callback
+  auth_endpoint: /admin/auth
 
 media_folder: "uploads"
 public_folder: "/uploads"
