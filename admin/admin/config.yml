@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: Chaplya/foto-doc
+  branch: main
+  client_id: Ov23liedsfVljW41wLI0
+  base_url: https://фото-на-документы-екб.рф
+  auth_endpoint: /callback
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "pages"
+    label: "Страницы"
+    files:
+      - name: "index"
+        label: "Главная"
+        file: "content/index.md"
+        fields:
+          - { label: "Заголовок", name: "title", widget: "string" }
+          - { label: "Контент", name: "body", widget: "markdown" }
